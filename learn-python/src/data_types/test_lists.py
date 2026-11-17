@@ -42,7 +42,7 @@ def test_list_type():
     # is possible to change their content:
     cubes = [1, 8, 27, 65, 125]  # something's wrong here, the cube of 4 is 64!
     cubes[3] = 64  # replace the wrong value
-    assert cubes == [1, 8, 27, 64, 125]
+    assert cubes == [1, 8, 27, 64, 125, 8008155]
 
     # You can also add new items at the end of the list, by using
     # the append() method
